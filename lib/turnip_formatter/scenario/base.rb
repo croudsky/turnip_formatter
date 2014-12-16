@@ -56,7 +56,7 @@ module TurnipFormatter
       end
 
       def feature_name
-        parent_example_group != nil ? parent_example_group[:description] : ''
+        parent_example_group != nil ? parent_example_group[:description] : 'Feature name is missing'
         # parent_example_group[:description]
       end
 
